@@ -36,10 +36,10 @@ export default function Header() {
         </ul>
 </div>
 <div className="DESKTOP-MENU hidden md:flex gap-16">
-<button className=" border-solid border-2 border-white-500 text-stone-300 text-base font-medium font-inter p-2.5 px-8">
+<button className="hover:bg-slate-800 border-solid border-2 border-white-500 text-stone-300 text-base font-medium font-inter p-2.5 px-8">
             Sign In
           </button>
-          <button className=" bg-indigo-700 hover:bg-indigo-700 text-stone-300 text-base font-medium font-Inter p-2.5 ">
+          <button className=" bg-indigo-700 hover:bg-indigo-600 text-stone-300 text-base font-medium font-Inter p-2.5 ">
             Sign Up Now
           </button>
 </div>
