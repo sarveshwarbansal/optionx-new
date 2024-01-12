@@ -37,10 +37,10 @@ const Cta = () => {
         </div> */}
         <div className="relative">
   
-  <Image src={ctabg} alt="Background Image" className=" hidden md:block w-full h-[300px]" />
+  <Image src={ctabg} alt="Background Image" className=" hidden md:block w-full h-[300px] xl:h-[350px]" />
 
  
-  <Image src={c} alt="Overlay Image" className="  md:absolute md:top-[-4%] md:left-[25%]  w-full h-auto z-10" />
+  <Image src={c} alt="Overlay Image" className="  md:absolute md:top-[-4%] md:left-[25%] xl:w-[75%] w-full h-auto z-10" />
 </div>
 
      
