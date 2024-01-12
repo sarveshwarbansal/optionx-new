@@ -31,7 +31,7 @@ function PricingTab(props: PricingTabProps) {
           </div>
           <div className="inline-flex items-baseline mb-2">
             <span className="text-slate-900 dark:text-slate-200 font-bold text-3xl">
-            <div className="w-[165px] h-[41.29px] text-center"><span style="text-zinc-400 text-xl font-medium font-['Montserrat']">$</span><span style="text-white text-xl font-medium font-['Montserrat']"> </span><span style="text-white text-[28px] font-extrabold font-['Montserrat']">2699.00</span><span style="text-zinc-400 text-xl font-semibold font-['Montserrat']">/qt</span></div>
+            <div className="w-[165px] h-[41.29px] text-center"><span className="text-zinc-400 text-xl font-medium font-['Montserrat']">$</span><span className="text-white text-xl font-medium font-['Montserrat']"> </span><span className="text-white text-[28px] font-extrabold font-['Montserrat']">2699.00</span><span className="text-zinc-400 text-xl font-semibold font-['Montserrat']">/qt</span></div>
             </span>
             <span className="text-slate-900 dark:text-slate-200 font-bold text-4xl">
               {props.yearly ? props.price.yearly : props.price.monthly}
