@@ -24,10 +24,10 @@ const Hero = () => {
         </div>
 
         <div className=" justify-center sm:justify-center md:justify-start items-start gap-6 flex py-8">
-          <button className="text-white text-base font-medium  p-2.5 bg-indigo-700 border-2 border-indigo-700">
+          <button className="text-white text-base font-medium  p-2.5 bg-indigo-700 border-2 border-indigo-700 hover:bg-indigo-600">
             Try FREE for 7 Days
           </button>
-          <button className="text-white text-base font-medium p-2.5 border-2 border-white px-8">
+          <button className="text-white text-base font-medium p-2.5 border-2 border-white px-8 hover:bg-slate-800">
             Demo Video
           </button>
         </div>
